@@ -6,6 +6,7 @@
  * main - main function
  * Return: Always 0
  */
+
 int main(void)
 
 {
@@ -22,7 +23,7 @@ int main(void)
 	if ((p != d) != q)
 	{
 	putchar(d);
-	putchar(p)
+	putchar(p);
 	putchar(q);
 	if (d == '7' && p == '8')
 	continue;
@@ -32,6 +33,6 @@ int main(void)
 	}
 	}
 	}
-	putchari('\n');
+	putchar('\n');
 	return (0);
 }
