@@ -3,7 +3,7 @@
 /**
  * main - print alphabet in lowercase and then in uppercase
  *
- * Return; always 0
+ * Return: always 0
  */
 
 int main(void)
@@ -14,6 +14,6 @@ int main(void)
 		putchar(i);
 	for (i = 'A' ; i <= 'Z' ; i++)
 		putchar(i);
-	putchar('i\n');
+	putchar('\n');
 	return (0);
 }
